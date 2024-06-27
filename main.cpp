@@ -28,8 +28,8 @@ int main() {
 
 
 
-    / クラス名から型を考えて<>の中を定義しよう /
-        TemplateClass<int, float> intFloatTemplate(10, 50.0f);
+    //クラス名から型を考えて<>の中を定義しよう /
+    TemplateClass<int, float> intFloatTemplate(10, 50.0f);
     TemplateClass<int, double> intDoubleTemplate(80, 13.0);
     TemplateClass<float, int > floatIntTemplate(2.0f, 9);
     TemplateClass<float, double > floatDoubleTemplate(11.0f, 3.5);
